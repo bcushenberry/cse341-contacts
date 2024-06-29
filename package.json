@@ -14,5 +14,10 @@
   "author": "Brandon Cushenberry",
   "license": "ISC",
   "bugs": "https://github.com/bcushenberry/cse341-contacts/issues",
-  "homepage": "https://github.com/bcushenberry/cse341-contacts#readme"
+  "homepage": "https://github.com/bcushenberry/cse341-contacts#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
 }
