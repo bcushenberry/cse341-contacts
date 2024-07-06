@@ -62,7 +62,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/contacts/": {
       "post": {
         "tags": [
           "Users"
@@ -102,7 +104,9 @@
             "description": "Internal Server Error"
           }
         }
-      },
+      }
+    },
+    "/contacts/{id}": {
       "put": {
         "tags": [
           "Users"
