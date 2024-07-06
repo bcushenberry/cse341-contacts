@@ -1,13 +1,16 @@
 // LOCALHOST
 ### Get all contacts
+
 GET http://localhost:8080/contacts
 
 ### Get contact by ID
+
 GET http://localhost:8080/contacts/667ff148fca0f7959f0c37cc
 
 ### Create contact
 POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
+
 {
     "firstName": "Frodo",
     "lastName": "Baggins",
@@ -16,15 +19,20 @@ content-type: application/json
     "birthday": "09/22/1368"
 }
 
-### PUT contact - under construction
-#PUT http://localhost:8080/contacts/667ff148fca0f7959f0c37cc HTTP/1.1
-#content-type: application/json
-#{
-#    "firstName": "Samwise",\n    "lastName": "Gamgee",\n    "email": "samwise@gamgee.bagend",\n    "favoriteColor": "green",\n    "birthday": "04/06/1380"
-#}
+### Update contact
+PUT http://localhost:8080/contacts/66897a70aa06737b8da3ad46 HTTP/1.1
+content-type: application/json
 
-### Delete contact - under construction
-#DELETE http://localhost:8080/contacts/667ff148fca0f7959f0c37cc HTTP/1.1
+{
+    "firstName": "Frodo",
+    "lastName": "Baggins",
+    "email": "frodo@baggins.bagend",
+    "favoriteColor": "gold",
+    "birthday": "09/22/1368"
+}
+
+### Delete contact
+DELETE http://localhost:8080/contacts/66897bf2aa06737b8da3ad47 HTTP/1.1
 
 
 
@@ -38,6 +46,7 @@ GET https://cse341-contacts-53a7.onrender.com/contacts/667ff148fca0f7959f0c37cc
 ### Create contact
 POST https://cse341-contacts-53a7.onrender.com/contacts HTTP/1.1
 content-type: application/json
+
 {
     "firstName": "Frodo",
     "lastName": "Baggins",
@@ -46,12 +55,17 @@ content-type: application/json
     "birthday": "09/22/1368"
 }
 
-### PUT contact - under construction
-#PUT https://cse341-contacts-53a7.onrender.com/contacts/667ff148fca0f7959f0c37cc HTTP/1.1
-#content-type: application/json
-#{
-#    "firstName": "Samwise",\n    "lastName": "Gamgee",\n    "email": "samwise@gamgee.bagend",\n    "favoriteColor": "green",\n    "birthday": "04/06/1380"
-#}
+### Update contact
+PUT https://cse341-contacts-53a7.onrender.com/contacts/66897a70aa06737b8da3ad46 HTTP/1.1
+content-type: application/json
 
-### Delete contact - under construction
-#DELETE https://cse341-contacts-53a7.onrender.com/contacts/667ff148fca0f7959f0c37cc HTTP/1.1
+{
+    "firstName": "Frodo",
+    "lastName": "Baggins",
+    "email": "frodo@baggins.bagend",
+    "favoriteColor": "gold",
+    "birthday": "09/22/1368"
+}
+
+### Delete contact
+DELETE https://cse341-contacts-53a7.onrender.com/contacts/66897bf2aa06737b8da3ad47 HTTP/1.1
