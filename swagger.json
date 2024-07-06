@@ -38,7 +38,8 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
     "/contacts/{id}": {
       "get": {
         "tags": [
@@ -147,8 +148,7 @@
             "description": "Internal Server Error"
           }
         }
-      }
-    },
+      },
       "delete": {
         "tags": [
           "Users"
