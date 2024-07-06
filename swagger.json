@@ -38,33 +38,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/contacts/{id}": {
-      "get": {
-        "tags": [
-          "Users"
-        ],
-        "description": "",
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/contacts/": {
+      },
       "post": {
         "tags": [
           "Users"
@@ -107,6 +81,28 @@
       }
     },
     "/contacts/{id}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
       "put": {
         "tags": [
           "Users"
