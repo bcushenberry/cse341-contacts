@@ -101,8 +101,7 @@
             "description": "Internal Server Error"
           }
         }
-      }
-    },
+      },
       "put": {
         "tags": [
           "Users"
@@ -148,7 +147,8 @@
             "description": "Internal Server Error"
           }
         }
-      },
+      }
+    },
       "delete": {
         "tags": [
           "Users"
