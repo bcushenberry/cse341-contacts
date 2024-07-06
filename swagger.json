@@ -27,7 +27,7 @@
     "/contacts/": {
       "get": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "produces": [
@@ -41,7 +41,7 @@
       },
       "post": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
@@ -83,7 +83,7 @@
     "/contacts/{id}": {
       "get": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "produces": [
@@ -105,7 +105,7 @@
       },
       "put": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
@@ -151,7 +151,7 @@
       },
       "delete": {
         "tags": [
-          "Users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
